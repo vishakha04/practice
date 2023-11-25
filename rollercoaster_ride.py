@@ -21,10 +21,10 @@ if(height>=120):
         price=100
     photos=input("Do you want to buy the photographs? Y/N\n")
 
-    if (photos=="Y" and photos=="y":
+    if(photos=="Y" or photos=="y"):
         price+= 30
     print(f"Final ticket price is: {price}")
-#     elif(photos=="N" and photos=="n"):
+#     elif(photos=="N" or photos=="n"):
 #         total = price
 #         print(f"Final ticket price is: {total}")
 #     else:

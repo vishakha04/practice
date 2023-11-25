@@ -24,11 +24,11 @@ if(height>=120):
     if(photos=="Y" or photos=="y"):
         price+= 30
     print(f"Final ticket price is: {price}")
-#     elif(photos=="N" or photos=="n"):
-#         total = price
-#         print(f"Final ticket price is: {total}")
-#     else:
-#         print("please make a valid selection.")
+    elif(photos=="N" or photos=="n"):
+        total = price
+        print(f"Final ticket price is: {total}")
+    else:
+        print("please make a valid selection.")
         
 else:
     print("Try again next year.")
